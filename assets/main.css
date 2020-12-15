@@ -1,0 +1,95 @@
+.branding{
+  font-family: 'Work Sans';
+  font-size: 25px;
+}
+
+.showcase{
+  background:url("giphy (1).gif") no-repeat;
+  background-color: black;
+  background-position: center;
+  height: 600px;
+  padding: 140px 100px;
+  color: #fff;
+}
+
+.showcase h1{
+  font-family: 'Work Sans';
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px  #4d4d4d;
+
+}
+
+.showcase p{ 
+  font-family: 'Work Sans';
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;}
+}
+
+.showcase hr{
+  width: 100px;
+  margin: auto;
+  border-width: 3px;
+  border-color: purple;
+}
+
+.section{
+  background: linear-gradient(to right, #c31432, #240b36);
+  padding: 40px 0;
+}
+
+.section h2{
+  padding: 0;
+  margin:0;
+}
+
+
+.section img{
+  width: 30%;
+  height: 30%;
+}
+
+.section p{  
+  font-family: 'Work Sans';
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;}
+
+
+ 
+.about img{
+  width: 100%;
+  height: 100%;
+}
+
+.about{
+background: linear-gradient(to right,  #240b36, #c31432);}
+
+.about h3{
+  font-family: 'Work Sans';
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px  #4d4d4d;
+}
+
+.about p{ 
+  font-family: 'Work Sans';
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;}
+
+
+  @media only screen and (max-width: 600px){
+    body{
+    margin-top: 190px;
+  }
+
+  .showcase{
+    height: 400px;
+    padding: 60px 0;
+  }
